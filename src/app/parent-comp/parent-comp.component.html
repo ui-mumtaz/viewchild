@@ -1,0 +1,12 @@
+<div class="container" #box>
+    <h2>Parent Component ....</h2>
+    <h2>User Name : <strong>{{username}} </strong> </h2>
+</div>
+
+<div class="container2">
+    <h2>Parent Component ....</h2>
+    <button (click)="changeChildProperty()">Change Child Property</button> &nbsp;
+    <button (click)="callChildMethod()">Call Child Method</button>
+</div>
+
+<child-comp></child-comp>
